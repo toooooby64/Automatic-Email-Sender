@@ -1,6 +1,8 @@
 
 document.querySelector('.btn').addEventListener("click", submitForm)
 
+localStorage.setItem('greeting', 'hello');
+
 function encodeEmail(){
     const encEmail = "amFzb24uYWx2YXJlejU2NjdAZ21haWwuY29t";
 
@@ -14,6 +16,8 @@ function encodeEmail(){
     let lname = document.querySelector(".lname").value
     let email = document.querySelector(".email").value
 
+    localStorage.setItem('fname', fname);
+    localStorage.setItem('email', email);
     sendEmail(fname,lname,email)
 }
 
