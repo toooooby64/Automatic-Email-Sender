@@ -1,5 +1,5 @@
-const fname = localStorage.getItem('fname');
-const email = localStorage.getItem('email');
+const fname = sessionStorage.getItem('fname');
+const email = sessionStorage.getItem('email');
 
 console.log(fname)
 console.log(email)
