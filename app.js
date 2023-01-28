@@ -1,16 +1,5 @@
-function submitForm(){
-  let fname = document.querySelector(".fname").value
-  let lname = document.querySelector(".lname").value
-  let email = document.querySelector(".email").value
-
-  sessionStorage.setItem('fname', fname);
-  sessionStorage.setItem('email', email);
-  sendEmail(fname,lname,email)
-}
 
 document.querySelector('.btn').addEventListener("click", submitForm)
-
-localStorage.setItem('greeting', 'hello');
 
 function encodeEmail(){
     const encEmail = "amFzb24uYWx2YXJlejU2NjdAZ21haWwuY29t";
@@ -20,7 +9,13 @@ function encodeEmail(){
 
 }
 
+ function submitForm(){
+    let fname = document.querySelector(".fname").value
+    let lname = document.querySelector(".lname").value
+    let email = document.querySelector(".email").value
 
+    sendEmail(fname,lname,email)
+}
 
 function sendEmail(firstName, lastName, email){
     const encEmail = "amFzb24uYWx2YXJlejU2NjdAZ21haWwuY29t";
