@@ -29,7 +29,7 @@ function test(){
 
 function nameAndEmailparameters(firstName,email) {
     let link = document.querySelector(".link")
-    link.setAttribute("href", `https://toooooby64.github.io/Automatic-Email-Sender/?fname=${firstName}&email=${email}`);
+    link.setAttribute("href", `https://toooooby64.github.io/Automatic-Email-Sender/thankyou.html?fname=${firstName}&email=${email}`);
 }
 
 function sendEmail(firstName, lastName, email){
