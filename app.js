@@ -23,8 +23,8 @@ function test(){
     let lname = document.querySelector(".lname").value
     let email = document.querySelector(".email").value
 
-    nameAndEmailparameters(fname,email)
     sendEmail(fname,lname,email) 
+    nameAndEmailparameters(fname,email)
 }
 
 function nameAndEmailparameters(firstName,email) {
