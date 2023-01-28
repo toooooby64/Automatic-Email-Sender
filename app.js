@@ -1,3 +1,12 @@
+function submitForm(){
+  let fname = document.querySelector(".fname").value
+  let lname = document.querySelector(".lname").value
+  let email = document.querySelector(".email").value
+
+  sessionStorage.setItem('fname', fname);
+  sessionStorage.setItem('email', email);
+  sendEmail(fname,lname,email)
+}
 
 document.querySelector('.btn').addEventListener("click", submitForm)
 
@@ -11,15 +20,7 @@ function encodeEmail(){
 
 }
 
- function submitForm(){
-    let fname = document.querySelector(".fname").value
-    let lname = document.querySelector(".lname").value
-    let email = document.querySelector(".email").value
 
-    localStorage.setItem('fname', fname);
-    localStorage.setItem('email', email);
-    sendEmail(fname,lname,email)
-}
 
 function sendEmail(firstName, lastName, email){
     const encEmail = "amFzb24uYWx2YXJlejU2NjdAZ21haWwuY29t";
