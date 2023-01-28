@@ -49,7 +49,15 @@ label{
 }
 .btn:hover {
 	background-position: bottom;
-  }
+}
+.breadcrumb-item{
+	font-family: robo;
+	color: white;
+}
+.breadcrumb >.active {
+	font-family: robo;
+	color: white;
+ }
 
 
 
