@@ -41,9 +41,7 @@ function sendEmail(firstName, lastName, email){
         <p>Thank you, </p>
         <p>Jason Alvarez</p>
       </div>`
-    }).then(
-      message => alert(message)
-    );
+    })
 }
 
 
