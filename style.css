@@ -1,0 +1,57 @@
+@font-face {
+	src: url(fonts/RobotoCondensed-Regular.ttf);
+	font-family: robo;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	 }
+ }
+
+body {
+    background-color: #2C3333;
+	animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.form-control{
+    color: #2C3333 !important;
+	font-family: robo;
+	font-size: 15px;
+}
+label{
+	color: #2C3333 !important;
+	font-family: robo;
+	font-size: 19px;
+}
+.text{
+	font-family: robo;
+	color: white;
+}
+
+.handshake{
+	width: 300px;
+    height: auto;
+}
+
+.btn{
+	font-family: robo;
+	color: white;
+    background-color: #b4b3fb	 !important;
+	border-color: #2C3333 !important;
+	background: linear-gradient(#0000, rgb(0 0 0/40%)) top/100% 800%;
+	transition: .75s linear;
+}
+.btn:hover {
+	background-position: bottom;
+  }
+
+
+
+
+
