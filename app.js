@@ -53,7 +53,7 @@ function sendEmail(firstName, lastName, email){
 
     setTimeout(function(){
         window.location.href = `https://toooooby64.github.io/Automatic-Email-Sender/thankyou.html?fname=${firstName}&email=${email}`;
-      }, 300); 
+      }, 650); 
 }
 
 
