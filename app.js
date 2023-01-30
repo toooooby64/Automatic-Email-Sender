@@ -41,7 +41,9 @@ function sendEmail(firstName, lastName, email){
                 <p>Please find attached my resume, as well as links to my LinkedIn and Github profiles.</p>
                 <p>My Email: jason.alvarez5667@gmail.com</p>
                 <a href="https://docs.google.com/document/d/1_z7AQHHCRXMW6GSKuyfCVNCd0pHH8uyV/edit?usp=sharing&ouid=101988256412340763156&rtpof=true&sd=true">My Resume</a>
+                <span> | </span>
                 <a href="https://www.linkedin.com/in/jason-alvarez-966a0a241/">LinkedIn</a>
+                <span> | </span>
                 <a href="https://github.com/toooooby64">Github</a>
                 <p>Thank you for taking the time to consider my introduction. I look forward to potentially working with you in the future. </p>
                 <p>Best regards,</p>
@@ -51,7 +53,7 @@ function sendEmail(firstName, lastName, email){
 
     setTimeout(function(){
         window.location.href = `https://toooooby64.github.io/Automatic-Email-Sender/thankyou.html?fname=${firstName}&email=${email}`;
-      }, 100); 
+      }, 300); 
 }
 
 
