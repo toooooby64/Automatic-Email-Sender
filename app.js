@@ -1,6 +1,7 @@
 
 document.querySelector('.btn').addEventListener("click", submitForm)
 
+
 function encodeEmail(){
     const encEmail = "amFzb24uYWx2YXJlejU2NjdAZ21haWwuY29t";
 
@@ -22,15 +23,9 @@ function test(){
     let fname = document.querySelector(".fname").value
     let lname = document.querySelector(".lname").value
     let email = document.querySelector(".email").value
-
     sendEmail(fname,lname,email) 
-    nameAndEmailparameters(fname,email)
 }
 
-function nameAndEmailparameters(firstName,email) {
-    let link = document.querySelector(".link")
-    link.setAttribute("href", `https://toooooby64.github.io/Automatic-Email-Sender/thankyou.html?fname=${firstName}&email=${email}`);
-}
 
 function sendEmail(firstName, lastName, email){
     Email.send({
@@ -51,9 +46,11 @@ function sendEmail(firstName, lastName, email){
                 <p>Thank you, </p>
                 <p>Jason Alvarez</p>
             </div>`
-    }).then(
-        message => alert(firstName + ' ' + lastName + ' ' + email)
-      );
+    })
+
+    setTimeout(function(){
+        window.location.href = `https://toooooby64.github.io/Automatic-Email-Sender/thankyou.html?fname=${firstName}&email=${email}`;
+      }, 50); 
 }
 
 
