@@ -31,7 +31,7 @@ function sendEmail(firstName, lastName, email){
     Email.send({
         SecureToken : "e55fe49a-5dc5-420d-b174-8d02b575410d",
         To : `${email}`,
-        From : "jason.alvarez5667@gmail.com",
+        From : "info@jasonsautomatedemailer.me",
         Subject : "Hi! I'm Jason Alvarez.",
         Body : 
             `<div class="email-text">
