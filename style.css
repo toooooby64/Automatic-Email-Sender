@@ -37,6 +37,7 @@ label{
 .handshake{
 	width: 300px;
     height: auto;
+	margin-top: -5rem !important;
 }
 
 .btn{
