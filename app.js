@@ -40,7 +40,6 @@ function sendEmail(firstName, lastName, email){
                 <p>As a driven and enthusiastic student, I have taken initiative in developing this automatic email sender and various other projects to further enhance my knowledge and skills in software development. I am confident that my previous work experience and my passion for continuous learning and growth make me a strong candidate for future opportunities.</p>
                 <p>Please find attached my resume, as well as links to my LinkedIn and Github profiles.</p>
                 <p>My Email: jason.alvarez5667@gmail.com</p>
-                <a>
                 <a href="https://docs.google.com/document/d/1_z7AQHHCRXMW6GSKuyfCVNCd0pHH8uyV/edit?usp=sharing&ouid=101988256412340763156&rtpof=true&sd=true">My Resume</a>
                 <a href="https://www.linkedin.com/in/jason-alvarez-966a0a241/">LinkedIn</a>
                 <a href="https://github.com/toooooby64">Github</a>
@@ -52,7 +51,7 @@ function sendEmail(firstName, lastName, email){
 
     setTimeout(function(){
         window.location.href = `https://toooooby64.github.io/Automatic-Email-Sender/thankyou.html?fname=${firstName}&email=${email}`;
-      }, 50); 
+      }, 100); 
 }
 
 
