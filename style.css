@@ -39,7 +39,10 @@ label{
     height: auto;
 	margin-top: -5rem !important;
 }
-
+.thankyou{
+	width: 300px;
+    height: auto;
+}
 .btn{
 	font-family: robo;
 	color: white;
