@@ -1,2 +1,2 @@
 # Automatic-Email-Sender
-This will send a email to anyone who fills out the form.
+This web application will send a email that introduces myself to anyone who fills out the form.
