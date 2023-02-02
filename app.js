@@ -49,11 +49,11 @@ function sendEmail(firstName, lastName, email){
                 <p>Best regards,</p>
                 <p>Jason Alvarez</p>
             </div>`
-    })
+    }).then((firstName, email) => setTimeout(firstName, email));
 
-    setTimeout(function(){
-        window.location.href = `https://toooooby64.github.io/Automatic-Email-Sender/thankyou.html?fname=${firstName}&email=${email}`;
-      }, 650); 
+  setTimeout(function () {
+    window.location.href = `https://toooooby64.github.io/Automatic-Email-Sender/thankyou.html?fname=${firstName}&email=${email}`;
+  }, 650); 
 }
 
 
