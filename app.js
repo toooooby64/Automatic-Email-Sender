@@ -36,7 +36,7 @@ function sendEmail(firstName, lastName, email){
         Body : 
             `<div class="email-text">
                 <p>Hello ${firstName} ${lastName}!</p>
-                <p>I hope this email finds you well. My name is Jason Alvarez and it was a pleasure to meet you at the recent Cisco Meraki Los Angeles Event. I am currently a Junior at California State University, Los Angeles, where I am pursuing a Bachelor's degree in Computer Science. My anticipated graduation date is May 2024.</p>
+                <p>I hope this email finds you well. My name is Jason Alvarez and its a pleasure to meet you. I am currently a Junior at California State University, Los Angeles, where I am pursuing a Bachelor's degree in Computer Science. My anticipated graduation date is May 2024.</p>
                 <p>As a driven and enthusiastic student, I have taken initiative in developing this automatic email sender and various other projects to further enhance my knowledge and skills in software development. I am confident that my previous work experience and my passion for continuous learning and growth make me a strong candidate for future opportunities.</p>
                 <p>Please find attached my resume, as well as links to my LinkedIn and Github profiles.</p>
                 <p>My Email: jason.alvarez5667@gmail.com</p>
